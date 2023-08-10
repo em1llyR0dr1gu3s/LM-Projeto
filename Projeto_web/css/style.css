@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+header{
+    background-image: url('../images/bg.jpg');
+    min-height: 450px;
+    padding: 30px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.logo{
+    position: relative;
+    background-image: url('../images/logo.png');
+    z-index: 2;
+    background-size: 100% 100% ;
+    width: 100px;
+    height: 70px;
+    float: left;
+}
+
+.menu-desktop{
+    float: right;
+}
+
+.menu-desktop ul{
+    list-style: none;
+}
+
+.menu-desktop li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav.menu-desktop a{
+    color: white;
+    text-decoration: nome;
+    font-size: 19px;
+}
+
+.menu-mobile{
+    float: right;
+    display: none;
+}
+
+.chamada{
+    padding: 150px 0;
+}
+
+.chamada h2{
+    color: white;
+    font-size: 45px;
+
+}
+
+.chamada p{
+    color: white;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.chamada form{
+    margin-top: 15px;
+}
+
+.chamada input[type="email"]:focus{outline: 0;}
+
+.chamada input[type="email"]{
+    width: 300px;
+    height: 41px;
+    border-radius: 100px;
+    background-color: white;
+    border: 0;
+    padding-left: 15px;
+    font-size: 18px ;
+}
+
+.chamada input[type="submit"]{
+    width: 180px;
+    height: 41px;
+    border-radius: 100px;
+    background-color: rgba(0, 250, 0, 0.6);
+    color: white;
+    cursor: pointer;
+    border: 0;
+    font-size: 18px;
+}
+
+.descricao{
+    text-align: center;
+    font-size: 25px;
+    padding: 30px 0;
+}
+
+.descricao p{
+    font-size: 25px;
+    font-style: italic;
+}
+
+.descricao b{
+    color:rgba(0, 250, 0, 0.6) ;
+    font-size: 27px;
+}
+
+.texto-descricao{
+    padding: 0 15px;
+    float: left;
+    width: 50%;
+}
+
+.texto-descricao h3{
+    color: #31475e;
+    font-size: 25px;
+    line-height: 33px;
+    margin-top: 25px;
+}
+
+.texto-descricao p{
+    margin-top: 10px;
+    font-size: 18px;
+
+}
+
+.descricao2 img{
+    width: 40%;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+.descricao3{
+    padding: 30px 0 70px;
+}
+
+.descricao3 > .container{
+    background-image: url('../images/bg2.jpg');
+    background-size: cover;
+    position: relative;
+    min-height: 350px;
+}
+
+/* Abaixo codigo de responsividade */
+
+@media screen and (max-width: 1024px){
+    .menu-desktop{
+        display: none;
+
+    }
+
+    .menu-mobile{
+        display: block;
+    }
+
+    .chamada{
+        text-align: center;
+    }
+
+    .chamada input[type="email"]{
+        margin-bottom: 10px;
+    }
+
+    .texto-descricao{
+        width: 100%;
+        display: block;
+    }
+    
+}
+
