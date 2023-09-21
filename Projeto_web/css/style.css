@@ -1,106 +1,68 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Kaisei HarunoUmi', serif;;
+}
+
+body{
+    background-color:black;
 }
 
 header{
-    background-image: url('../images/bg_picture.jpg');
-    min-height: 450px;
+
+    background-image: url(../imagens/Design\ sem\ nome\ \(2\).png); 
+    min-height: 450px ;
     padding: 30px 0;
     background-size: cover;
     background-position: center;
+    background-color:  black;
+    max-width: 100%;
+    margin: 15px;
 }
 
-.container{
+.conteiner{
+    width: 2000px;
+    height: 687px;
+    flex-shrink: 0;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 2%;
 }
 
 .logo{
+
+    width: 103px;
+    height: 150px;
+    top: -50px;
+    border-radius: 0px 0px 50px 0px;
     position: relative;
-    background-image: url('../images/starbucks.svg');
+    background-image: url(../imagens/logo.jpg);
     z-index: 2;
-    background-size: 100% 100% ;
-    width: 100px;
-    height: 90px;
+    background-size: 100% 100%;
     float: left;
 }
 
 .menu-desktop{
+
     float: right;
 }
 
-.menu-desktop ul{
+.menu ul{
+
     list-style: none;
 }
 
-.menu-desktop li{
+.menu li{
+
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
-nav.menu-desktop a{
-    color: white;
-    text-decoration: nome;
-    font-size: 19px;
-}
-
-.menu-mobile{
-    float: right;
-    display: none;
-}
-
-.menu-mobile ul{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    padding: 70px 0 30px 0;
-    display: none;
-    text-align: center;
-    background-color:  #006400;
-}
-
-.menu-mobile i{
-    position: relative;
-    z-index: 2;
-}
-
-.menu-mobile li{
-    padding: 10px 0;
-}
-
-.menu-mobile a{
+.menu a{
+    color: #fff;
     text-decoration: none;
-    color: white;
-    display: block;
     font-size: 21px;
-}
-
-.chamada{
-    padding: 150px 0;
-}
-
-.chamada h2{
-    color: white;
-    font-size: 45px;
-    padding-left: 70px;
-
-}
-
-.chamada p{
-    color: white;
-    font-size: 17px;
-    margin-top: 10px;
-    padding-left: 90px;
-}
-
-.chamada form{
-    margin-top: 15px;
-    padding-left: 70px;
 }
 
 .chamada input[type="email"]:focus{outline: 0;}
@@ -109,271 +71,90 @@ nav.menu-desktop a{
     width: 300px;
     height: 41px;
     border-radius: 100px;
-    background-color: white;
+    background-color: #fff;
+    font-size: 17px;
     border: 0;
-    padding-left: 15px;
-    font-size: 18px ;
+    padding-left: 10px;
 }
 
 .chamada input[type="submit"]{
     width: 180px;
     height: 41px;
     border-radius: 100px;
-    background-color: #006400;
-    color: white;
+    background: white ;
+    font-size: 17px;
     cursor: pointer;
+    margin-top: 20px;
     border: 0;
-    font-size: 18px;
 }
 
-.descricao{
-    text-align: center;
-    font-size: 25px;
-    padding: 30px 0;
+.chamada{
+
+    padding: 150px 0;
 }
 
-.descricao p{
-    font-size: 25px;
-    font-style: italic;
-}
+.chamada p{
 
-.descricao b{
-    color:#006400 ;
-    font-size: 27px;
-}
-
-.texto-descricao{
-    padding: 0 15px;
-    float: left;
-    width: 50%;
-}
-
-.texto-descricao h3{
-    color: #31475e;
-    font-size: 25px;
-    line-height: 33px;
-    margin-top: 25px;
-}
-
-.texto-descricao p{
+    color: #fff;
+    font-size: 20px;
     margin-top: 10px;
-    font-size: 18px;
-
+    max-width: 500px;
 }
 
-.descricao2 img{
-    width: 40%;
-    float: left;
-    border-radius: 35px;
+.chamada h2{
+
+    color: #fff;
+    font-size: 40px;
+    margin-top: 10px;
 }
 
-.clear{
-    clear: both;
+.sobre-jogo h3{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 600px;
 }
 
-.descricao3{
-    padding: 30px 0 70px;
-}
-
-.descricao3 > .container{
-    background-image: url('../images/banner.jpeg');
-    background-size: cover;
-    position: relative;
-    min-height: 350px;
-}
-
-.depoimento{
-    position: absolute;
+.circulo{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
     background-color: white;
-    left: 50%;
-    bottom: -30px;
-    max-width: 507%;
-    padding: 40px; 
-    box-shadow: 0 8px 20px 0 rgba(51, 45, 45, 0.8);
+    margin-top: -760px;
+    margin-left: 1360px;
+    font-size: 80px;
 }
 
-.depoimento b{
-    font-size: 19px;
-    color:#006400 ;
-}
-
-.titulo-servicos{
-    text-align: center;
-}
-
-.combo-produtos{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.espaco-produtos{
-    display: flex;
-    width: 33%;
-    padding: 35px;
-}
-
-.espaco-produtos p{
-    margin: 9px 0;
-}
-
-.box-produtos{
-    border-radius: 15px;
-    height: 100%;
-    box-shadow: 0 8px 20px 0 rgb(171, 171, 171);
-    padding: 10px;
-}
-
-.box-produtos img{
-    border-radius: 20px;
-}
-
-.espaco-produtos a{
-    display: inline-block;
-    border: 1px solid gray;
-    color: #31475e;
-    font-size: 19px;
-    text-decoration: none;
-    padding: 6px 13px;
-    border-radius: 20px;
-}
-
-.formulario{
-    padding: 30px 0 ;
-}
-.formulario h2{
-    text-align: center;
-}
-
-.formulario form{
-    margin-top: 10px;
-}
-
-.formulario input[type=text]{
-    width: 100%;
-    height: 40px;
-    border: 1px solid gray;
-    border-radius: 100px;
-    margin-top: 10px;
-    padding: 10px;
-}
-
-.formulario textarea{
-    width: 100%;
-    height: 130px;
-    margin-top: 10px;
-    padding: 10px;
-    border-radius: 20px;
-    border: 1px solid gray;
-}
-
-footer{
-    margin: 50px 0;
-    border-top: 1px solid grey;
-}
-
-.box-footer{
-    margin: 20px 0 20px 0;
-    float: left;
-    width: 33.33%;
-    padding: 0 15px;
-}
-
-.box-footer p{
-    margin-top: 15px;
-    font-size: 21px;
-}
-
-.box-footer input[type="text"]{
-    width: 80%;
-    padding-left: 10px;
-    max-width: 110px;
-    height: 45px;
-    border-radius: 100px;
-    border: 1px solid gray;
-}
-
-.box-footer button {
+.bx{
+    margin-bottom: 60px;
     margin-left: 10px;
-    max-width: 60px;
-    height: 45px;
-    border: 1px solid #006400 ;
-    border-radius: 50px;
-    background-color: white;
-    width: 70px;
 }
 
+.jogo{
+    background-color: #000000;
+    width: 2000px;
+    height: 687px;
+    flex-shrink: 0;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 2%;
+    margin-top: 750px;
 
-.container input[type="submit"]{
-    width: 180px;
-    height: 31px;
-    border-radius: 100px;
-    background-color: #006400;
-    color: white;
-    cursor: pointer;
-    border: 0;
-    font-size: 18px;
 }
 
-
-
-
-/* Abaixo codigo de responsividade */
-
-@media screen and (max-width: 1024px){
-    .box-footer{
-        text-align: center;
-        width: 100%;
-        margin-bottom: 15px;
-        
-    }
-    .depoimento{
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        bottom: auto;
-        padding: 30px;
-        width: 90%;
-        transform: translate(-50%, -50%);
-    }
-    .espaco-produtos{
-        width: 100%;
-        margin: 0 auto;
-        max-width: 400px;
-        padding: 10px;
-
-   }
-    .menu-desktop{
-        display: none;
-    }
-    .menu-mobile{
-        display: block;
-       
-    }
-    .chamada{
-        text-align: center;
-    }
-    
-    .chamada input[type="email"]{
-        margin-bottom: 10px;
-    }
-    
-   
+.quadrado{
+    background-color: #BC0000;
+    width: 400px;
+    height: 600px;
+    margin-left: 1000px;
 }
-/* Definindo medidas para celulares  */
-@media screen and (max-width: 768px){
-    .texto-descricao{
-        width: 100%;
-        display: block;
-        float: none;
-    }
-    .descricao2 img{
-        width:100%;
-        display: block;
-        margin: 0 auto;
-        margin-top: 20px;
-        max-width: 500px;
 
-    }
+.imgcorrida{
+    background-image: url(../imagens/Corridapucca.jpg);
+    width: 490px;
+    height: 450px;
+    background-size: 500px;
+    margin-left: 850px;
+    margin-top: -530px;
     
     
 }
