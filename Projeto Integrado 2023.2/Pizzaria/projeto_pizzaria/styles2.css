@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+.conteiner2{
+    margin: 0 auto;
+    padding: 0 2%;
+    background-image: url(./img/image\ 1.svg);
+    min-height: 721px;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.login{
+    left: 0;
+    position: absolute;
+    top: 5vh;
+    margin-top: 30px;
+    background-color: #f27806a6;
+    border-radius: 15px;
+    width: 450px;
+    height: 600px;
+    list-style: none;
+    margin-left: 550px;
+}
+
+.login2{
+    position: relative;
+    background-image: url(./img/Vector\ \(3\).svg);
+    z-index: 2;
+    background-size: 100% 100%;
+    width: 100px;
+    height: 80px;
+    top: 80px;
+    text-align: center;
+    padding-left: 165vh;
+}
+
+.login h3{
+    position: relative;
+    padding-left: 90px;
+    padding-top: 40px;
+    font-size: 140%;
+    color: white;
+    font-family: 'Pattaya', sans-serif;
+}
+
+.textos{
+    color: white;
+    text-align: center;
+    position: relative;  
+}
+
+.textos h2{
+     padding-left: 550px;
+    position: absolute;
+    top: 20vh;
+}
+
+.textos h4{
+    padding-left: 550px;
+    position: absolute;
+    top: 25vh;
+}
+
+.button{
+    left: 0;
+    position: absolute;
+    top: 70vh;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    list-style: none;
+    margin-left: 700px;
+  
+}
+
+.button a{
+    text-align: center;
+    padding-top: 15px;
+    text-decoration: none;
+    color: #F27706;
+    padding-left: 40px;
+    font-size: 25px;
+} 

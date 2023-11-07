@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+html{
+    overflow-x: hidden;
+}
+
+.conteiner{
+    margin: 0 auto;
+    padding: 0 2%;
+    background-image: url(./img/Group\ 1\ \(1\).svg);
+    min-height: 721px;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    position: relative;
+    background-image: url(./img/Vector\ \(3\).svg);
+    z-index: 2;
+    background-size: 100% 100%;
+    width: 100px;
+    height: 60px;
+    top: 20px;
+    text-align: center;
+}
+
+.logo h3{
+    position: relative;
+    padding-left: 80px;
+    padding-top: 15px;
+    font-size: 140%;
+    color: white;
+    font-family: 'Pattaya', sans-serif;
+}
+
+.textos{
+   color: white;
+   text-align: center;
+   position: relative;  
+}
+
+.textos h2 {
+    left: 0;
+    position: absolute;
+    top: 35vh;
+    font-size: 400%;
+}
+
+.textos h4{
+    left: 0;
+    position: absolute;
+    top: 55vh;
+}
+
+.button{
+    left: 0;
+    position: absolute;
+    top: 70vh;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    list-style: none;
+    margin-left: 100px;
+  
+}
+
+.button a{
+    text-align: center;
+    padding-top: 5px;
+    text-decoration: none;
+    color: #F27706;
+    padding-left: 70px;
+    font-size: 25px;
+} 
+
